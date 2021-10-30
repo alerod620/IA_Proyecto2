@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 110530817}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1470769990}
+        m_TargetAssemblyTypeName: Cambiar_escena, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Ver_Espacio
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &110530817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -756,7 +768,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 900992177}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1470769990}
+        m_TargetAssemblyTypeName: Cambiar_escena, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Eliminar_Espacio
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &900992177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,7 +1172,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1587338396}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1470769990}
+        m_TargetAssemblyTypeName: Cambiar_escena, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Editar_Espacio
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1587338396
 MonoBehaviour:
   m_ObjectHideFlags: 0

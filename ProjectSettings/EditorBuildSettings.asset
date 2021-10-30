@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Crear_Espacio.unity
     guid: f73464a2e870bd949beec59325dbfdb7
+  - enabled: 1
+    path: Assets/Scenes/Editar_Espacio.unity
+    guid: ad62d875133fd454d858698d640505a2
+  - enabled: 1
+    path: Assets/Scenes/Ver_Espacio.unity
+    guid: 7447be63e131cdd4cb73d1aaa7532379
+  - enabled: 1
+    path: Assets/Scenes/Eliminar_Espacio.unity
+    guid: 657d01d232a5f824c964f9fd201ab67c
   m_configObjects: {}
