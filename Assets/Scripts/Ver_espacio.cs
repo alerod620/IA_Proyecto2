@@ -25,7 +25,7 @@ public class Ver_espacio : MonoBehaviour
 			{
                 PlayerPrefs.SetInt("CARGAR", 1);
                 SetBitacora("El cargo el espacio " + nombre);
-                //SceneManager.LoadScene("New Scene2");
+                SceneManager.LoadScene("Espacios");
             }
 			else //Espacio inactivo
 			{
@@ -37,7 +37,7 @@ public class Ver_espacio : MonoBehaviour
 			{
                 PlayerPrefs.SetInt("CARGAR", 2);
                 SetBitacora("El usuario cargo el espacio " + nombre);
-                //SceneManager.LoadScene("New Scene2");
+                SceneManager.LoadScene("Espacios");
             }
 			else //Espacio inactivo
 			{
@@ -50,7 +50,7 @@ public class Ver_espacio : MonoBehaviour
 			{
                 PlayerPrefs.SetInt("CARGAR", 3);
                 SetBitacora("El usuario cargo el espacio " + nombre);
-                //SceneManager.LoadScene("New Scene2");
+                SceneManager.LoadScene("Espacios");
             }
 			else //Espacio inactivo
 			{
@@ -63,7 +63,7 @@ public class Ver_espacio : MonoBehaviour
 			{
                 PlayerPrefs.SetInt("CARGAR", 4);
                 SetBitacora("El usuario cargo el espacio " + nombre);
-                //SceneManager.LoadScene("New Scene2");
+                SceneManager.LoadScene("Espacios");
             }
 			else //Espacio inactivo
 			{
@@ -76,7 +76,7 @@ public class Ver_espacio : MonoBehaviour
 			{
                 PlayerPrefs.SetInt("CARGAR", 5);
                 SetBitacora("El usuario cargo el espacio " + nombre);
-                //SceneManager.LoadScene("New Scene2");
+                SceneManager.LoadScene("Espacios");
             }
 			else //Espacio inactivo
 			{
@@ -89,7 +89,7 @@ public class Ver_espacio : MonoBehaviour
 			{
                 PlayerPrefs.SetInt("CARGAR", 6);
                 SetBitacora("El usuario cargo el espacio " + nombre);
-                //SceneManager.LoadScene("New Scene2");
+                SceneManager.LoadScene("Espacios");
             }
 			else //Espacio inactivo
 			{
