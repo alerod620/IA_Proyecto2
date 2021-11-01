@@ -44,8 +44,6 @@ public class Crear_espacio : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		//Se inicializa la variable
-		//texto = GameObject.Find("Canvas/Background/Mensaje_panel/Mensaje_texto").GetComponent<Text>();
 		
 		//Cada dropdown tiene su listener y están por orden de como aparecen en la interfaz
 		
@@ -268,13 +266,13 @@ public class Crear_espacio : MonoBehaviour
 	
 	public void SetBitacora(string txt){
         StreamWriter wr = new StreamWriter("Logs/bitacora_201025406_201404006.txt", true);
-        wr.WriteLine("{Accion}::"+txt);
+        wr.WriteLine("[Accion]::"+txt);
         wr.Close();
     }
 
     public void SetBitacoraError(string txt){
         StreamWriter wr = new StreamWriter("Logs/bitacora_201025406_201404006.txt", true);
-        wr.WriteLine("{Error}::"+txt);
+        wr.WriteLine("[Error]::"+txt);
         wr.Close();
     }
 	

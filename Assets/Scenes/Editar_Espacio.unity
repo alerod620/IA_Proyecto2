@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 225195651}
   - component: {fileID: 225195650}
   m_Layer: 5
-  m_Name: Editar
+  m_Name: Editar_texto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

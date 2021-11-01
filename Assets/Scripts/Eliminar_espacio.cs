@@ -38,7 +38,7 @@ public class Eliminar_espacio : MonoBehaviour
 		{
             if (PlayerPrefs.GetInt("PISO2A") == 1) //Si existe
 			{
-                SetBitacora("El usuario elimino el espacio 1");
+                SetBitacora("El usuario elimino el espacio 2");
                 PlayerPrefs.SetInt("PISO2A",0);
 				texto.text = "Espacio 2 eliminado con exito";
             }
@@ -108,13 +108,13 @@ public class Eliminar_espacio : MonoBehaviour
 
     public void SetBitacora(string txt){
         StreamWriter wr = new StreamWriter("Logs/bitacora_201025406_201404006.txt", true);
-        wr.WriteLine("{Accion}::"+txt);
+        wr.WriteLine("[Accion]::"+txt);
         wr.Close();
     }
 
     public void SetBitacoraError(string txt){
         StreamWriter wr = new StreamWriter("Logs/bitacora_201025406_201404006.txt", true);
-        wr.WriteLine("{Error}::"+txt);
+        wr.WriteLine("[Error]::"+txt);
         wr.Close();
     }
 	
