@@ -148,7 +148,7 @@ public class Espacios : MonoBehaviour
     {
          //Con la tecla espacio regresamos al usuario al menu principal
         if (Input.GetKeyDown(KeyCode.Space)){
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Ver_Espacio");
         }
         
     }
@@ -159,15 +159,15 @@ public class Espacios : MonoBehaviour
         switch (this.mesa){            
             // Superior izquierda
             case 1:
-                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(-4.8f),
+                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(-5.7f),
                 mesaO.transform.position.y,
-                mesaO.transform.position.z+(5.5f));
+                mesaO.transform.position.z+(3.8f));
                 break;
             //Superior derecha
             case 2:
-                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(4.8f),
+                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(5.7f),
                 mesaO.transform.position.y,
-                mesaO.transform.position.z+(5.5f));
+                mesaO.transform.position.z+(3.8f));
                 break;
             //Centro
             case 3:
@@ -177,15 +177,15 @@ public class Espacios : MonoBehaviour
                 break;
             //Inferior izquierda
             case 4:
-                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(-4.8f),
+                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(-5.7f),
                 mesaO.transform.position.y,
-                mesaO.transform.position.z+(-5.5f));
+                mesaO.transform.position.z+(-3.8f));
                 break;
             //Inferior derecha
             case 5:
-                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(4.8f),
+                mesaO.transform.position = new Vector3(mesaO.transform.position.x+(5.7f),
                 mesaO.transform.position.y,
-                mesaO.transform.position.z+(-5.5f));
+                mesaO.transform.position.z+(-3.8f));
                 break;
             default:
                 mesaO.transform.position = new Vector3(mesaO.transform.position.x,
@@ -204,15 +204,15 @@ public class Espacios : MonoBehaviour
         switch (this.lampara){            
             // Superior izquierda
             case 1:
-                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(-4.8f),
+                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(-5.7f),
                 lamparaO.transform.position.y,
-                lamparaO.transform.position.z+(5.5f));
+                lamparaO.transform.position.z+(3.8f));
                 break;
             //Superior derecha
             case 2:
-                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(4.8f),
+                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(5.7f),
                 lamparaO.transform.position.y,
-                lamparaO.transform.position.z+(5.5f));
+                lamparaO.transform.position.z+(3.8f));
                 break;
             //Centro
             case 3:
@@ -222,15 +222,15 @@ public class Espacios : MonoBehaviour
                 break;
             //Inferior izquierda
             case 4:
-                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(-4.8f),
+                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(-5.7f),
                 lamparaO.transform.position.y,
-                lamparaO.transform.position.z+(-5.5f));
+                lamparaO.transform.position.z+(-3.8f));
                 break;
             //Inferior derecha
             case 5:
-                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(4.8f),
+                lamparaO.transform.position = new Vector3(lamparaO.transform.position.x+(5.7f),
                 lamparaO.transform.position.y,
-                lamparaO.transform.position.z+(-5.5f));
+                lamparaO.transform.position.z+(-3.8f));
                 break;
             default:
                 lamparaO.transform.position = new Vector3(lamparaO.transform.position.x,
@@ -251,15 +251,15 @@ public class Espacios : MonoBehaviour
         switch (this.jacuzzi){            
             // Superior izquierda
             case 1:
-                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(-4.8f),
+                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(-5.7f),
                 jacuzziO.transform.position.y,
-                jacuzziO.transform.position.z+(5.5f));
+                jacuzziO.transform.position.z+(3.8f));
                 break;
             //Superior derecha
             case 2:
-                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(4.8f),
+                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(5.7f),
                 jacuzziO.transform.position.y,
-                jacuzziO.transform.position.z+(5.5f));
+                jacuzziO.transform.position.z+(3.8f));
                 break;
             //Centro
             case 3:
@@ -269,15 +269,15 @@ public class Espacios : MonoBehaviour
                 break;
             //Inferior izquierda
             case 4:
-                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(-4.8f),
+                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(-5.7f),
                 jacuzziO.transform.position.y,
-                jacuzziO.transform.position.z+(-5.5f));
+                jacuzziO.transform.position.z+(-3.8f));
                 break;
             //Inferior derecha
             case 5:
-                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(4.8f),
+                jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x+(5.7f),
                 jacuzziO.transform.position.y,
-                jacuzziO.transform.position.z+(-5.5f));
+                jacuzziO.transform.position.z+(-3.8f));
                 break;
             default:
                 jacuzziO.transform.position = new Vector3(jacuzziO.transform.position.x,
@@ -297,15 +297,15 @@ public class Espacios : MonoBehaviour
         switch (this.sillon){            
             // Superior izquierda
             case 1:
-                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(-4.8f),
+                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(-5.7f),
                 sillonO.transform.position.y,
-                sillonO.transform.position.z+(5.5f));
+                sillonO.transform.position.z+(3.8f));
                 break;
             //Superior derecha
             case 2:
-                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(4.8f),
+                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(5.7f),
                 sillonO.transform.position.y,
-                sillonO.transform.position.z+(5.5f));
+                sillonO.transform.position.z+(3.8f));
                 break;
             //Centro
             case 3:
@@ -315,15 +315,15 @@ public class Espacios : MonoBehaviour
                 break;
             //Inferior izquierda
             case 4:
-                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(-4.8f),
+                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(-5.7f),
                 sillonO.transform.position.y,
-                sillonO.transform.position.z+(-5.5f));
+                sillonO.transform.position.z+(-3.8f));
                 break;
             //Inferior derecha
             case 5:
-                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(4.8f),
+                sillonO.transform.position = new Vector3(sillonO.transform.position.x+(5.7f),
                 sillonO.transform.position.y,
-                sillonO.transform.position.z+(-5.5f));
+                sillonO.transform.position.z+(-3.8f));
                 break;
             default:
                 sillonO.transform.position = new Vector3(sillonO.transform.position.x,
@@ -343,15 +343,15 @@ public class Espacios : MonoBehaviour
         switch (this.sofa){            
             // Superior izquierda
             case 1:
-                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(-4.8f),
+                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(-5.7f),
                 sofaO.transform.position.y,
-                sofaO.transform.position.z+(5.5f));
+                sofaO.transform.position.z+(3.8f));
                 break;
             //Superior derecha
             case 2:
-                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(4.8f),
+                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(5.7f),
                 sofaO.transform.position.y,
-                sofaO.transform.position.z+(5.5f));
+                sofaO.transform.position.z+(3.8f));
                 break;
             //Centro
             case 3:
@@ -361,15 +361,15 @@ public class Espacios : MonoBehaviour
                 break;
             //Inferior izquierda
             case 4:
-                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(-4.8f),
+                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(-5.7f),
                 sofaO.transform.position.y,
-                sofaO.transform.position.z+(-5.5f));
+                sofaO.transform.position.z+(-3.8f));
                 break;
             //Inferior derecha
             case 5:
-                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(4.8f),
+                sofaO.transform.position = new Vector3(sofaO.transform.position.x+(5.7f),
                 sofaO.transform.position.y,
-                sofaO.transform.position.z+(-5.5f));
+                sofaO.transform.position.z+(-3.8f));
                 break;
             default:
                 sofaO.transform.position = new Vector3(sofaO.transform.position.x,

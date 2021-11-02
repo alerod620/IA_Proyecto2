@@ -201,7 +201,7 @@ public class Crear_espacio : MonoBehaviour
         }
 		else if (this.piso == 6) //Crea el espacio 6
 		{
-            if (PlayerPrefs.GetInt("PISO5A") == 0) //Verifica que no esté ocupado el piso 6
+            if (PlayerPrefs.GetInt("PISO6A") == 0) //Verifica que no esté ocupado el piso 6
 			{
                 valoresNuevos("6"); //Setear valores de piso 6
             }
@@ -214,6 +214,7 @@ public class Crear_espacio : MonoBehaviour
     }
 	
 	public void valoresNuevos(string piso){
+		
         if (piso == "1") //Espacio 1
 		{
             PlayerPrefs.SetInt("PISO1A",1);
@@ -232,24 +233,19 @@ public class Crear_espacio : MonoBehaviour
 			texto.text = "Espacio 3 creado con exito";
             SetBitacora("El usuario creo el espacio 3");
         }
-		else if (piso == "3") //Espacio 3
-		{
-            PlayerPrefs.SetInt("PISO3A",1);
-			texto.text = "Espacio 4 creado con exito";
-            SetBitacora("El usuario creo el espacio 3");
-        }
 		else if (piso == "4") //Espacio 4
 		{
             PlayerPrefs.SetInt("PISO4A",1);
-			texto.text = "Espacio 5 creado con exito";
+			texto.text = "Espacio 4 creado con exito";
             SetBitacora("El usuario creo el espacio 4");
         }
-		else if (piso == "3") //Espacio 5
+		else if (piso == "5") //Espacio 5
 		{
             PlayerPrefs.SetInt("PISO5A",1);
+			texto.text = "Espacio 5 creado con exito";
             SetBitacora("El usuario creo el espacio 5");
         }
-		else if (piso == "3") //Espacio 6
+		else if (piso == "6") //Espacio 6
 		{
             PlayerPrefs.SetInt("PISO6A",1);
 			texto.text = "Espacio 6 creado con exito";
